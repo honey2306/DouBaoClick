@@ -1,0 +1,29 @@
+# Build directory
+/build
+build/
+
+# Dependencies
+dependencies.lock
+
+# SDKConfig
+sdkconfig.old
+sdkconfig.defaults.old
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Logs
+*.log
