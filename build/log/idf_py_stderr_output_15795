@@ -1,0 +1,15 @@
+CMake Error at CMakeLists.txt:5 (include):
+  include could not find requested file:
+
+    /CMakeLists.txt
+
+
+CMake Error at /Users/wufan/esp/v5.2/esp-idf/tools/cmake/build.cmake:288 (message):
+  Failed to resolve component 'audio_recorder'.
+Call Stack (most recent call first):
+  /Users/wufan/esp/v5.2/esp-idf/tools/cmake/build.cmake:324 (__build_resolve_and_add_req)
+  /Users/wufan/esp/v5.2/esp-idf/tools/cmake/build.cmake:627 (__build_expand_requirements)
+  /Users/wufan/esp/v5.2/esp-idf/tools/cmake/project.cmake:612 (idf_build_process)
+  CMakeLists.txt:8 (project)
+
+
