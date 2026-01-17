@@ -6,6 +6,9 @@ build/
 dependencies.lock
 managed_components/
 
+# Cache
+.cache/
+
 # SDKConfig
 sdkconfig.old
 sdkconfig.defaults.old
